@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      * {
+         margin: 0px;
+         box-sizing: border-box;
+      }
+      .hello {
+         border: 2px solid red;
+         width: 190px;
+         height: 50px;
+         text-align: center;
+         font-size: 2rem;
+         color: white;
+         background-color: red;
+         position: relative;
+         animation: ruban 5s infinite;
+      }
+      @keyframes ruban {from {left: 0px;} to {left: 300px;}}
+      .hello__hell {
+         animation-timing-function:linear;
+      }
+      .hello__may {
+         animation-timing-function:ease;
+      }
+      .hello__an {
+         animation-timing-function:ease-in
+      }
+      .hello__mana {
+         animation-timing-function:ease-out;
+      }
+      .hello__site {
+         animation-timing-function: ease-in-out
+      }
+
+      
+   </style>
+</head>
+<body>
+
+   <p class="hello hello__hell">Приветствую</p>
+   <p class="hello hello__may">Вас</p>
+   <p class="hello hello__an">на</p>
+   <p class="hello hello__mana">моем</p>
+   <p class="hello hello__site">сайте!</p>
+  
+   
+</body>
+</html>
